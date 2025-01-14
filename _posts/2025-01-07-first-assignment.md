@@ -20,5 +20,5 @@ Now we confirm that supremums of bounded sets exist. This is known as the least-
 
 6. Manetti 3.4
 
-7. Show that the collection of intervals $$(a, b)$$ for *rational* $$a$$ and $$b$$ forms a basis for the standard topology. Show that the collection of half-open intervals $$[a, b)$$ for *rational* $$a$$ and $$b$$ does *not* form a basis for the lower-limit topology. Find a nice basis of the upper topology consisting of only finitely-many sets.
+7. Show that the collection of intervals $$(a, b)$$ for *rational* $$a$$ and $$b$$ forms a basis for the standard topology. Show that the collection of half-open intervals $$[a, b)$$ for *rational* $$a$$ and $$b$$ does *not* form a basis for the lower-limit topology. Find a nice basis of the upper topology consisting of only countably-many sets.
 
