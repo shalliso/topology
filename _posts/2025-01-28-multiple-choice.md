@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some multiple choice questions to play around with"
-categories: lecture
+categories: note
 ---
 
 I've been messing around with AI a bit and tried giving all of the lecture notes so far as well as the two written assignments to GPT o1 and asking it to produce some practice test questions.
