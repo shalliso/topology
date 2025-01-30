@@ -18,9 +18,13 @@ Show that the standard Euclidean topology, the Manhattan metric, and the square 
 
 ## Question 3
 
+In this problem we will adopt the convention that $$0 \in \mathbb{N}$$.
+
 Let $$\mathbb{N}^\mathbb{N}$$ be the set of all functions from $$\mathbb{N}$$ to $$\mathbb{N}$$, which we can think of as infinite sequences $$(a_n)_{n \ge 0}$$ of natural numbers, such as: 0, 1, 2, 3, ..., or 0, 0, 0, 0, ..., or 0, 1, 0, 1, ..., or 1, 10, 100, 1000, ..., and so on. Let $$\mathbb{N}^{<\mathbb{N}}$$ be the set of finite sequences $$(a_n)_{n < N}$$ of natural numbers. For every $$\bar{a} = (a_n)_{n < N} \in \mathbb{N}^{<\mathbb{N}}$$, define the set
 
-$$ \mathcal{N}_{\bar{a}} := \left\{(b_n)_{n \ge 0} \in \mathbb{N}^\mathbb{N} \mid \forall n < N \; a_n = b_n\right\}$$
+$$ \mathcal{N}_{\bar{a}} := \left\{(b_n)_{n \ge 0} \in \mathbb{N}^\mathbb{N} \mid \forall n < \|\bar{a}\| \; a_n = b_n\right\}$$
+
+where $$\|\bar{a}\|$$ represents the length of $$\bar{a}$$.
 
 Show that the collection of theses sets forms a basis for a topology on $$\mathbb{N}^\mathbb{N}$$. This is known as Baire space. It is a super useful and interesting topology that is in some ways very similar to the standard topology on $$\mathbb{R}$$, but in some ways very dissimilar.
 
@@ -30,7 +34,9 @@ $$d_1((a_n)_{n \ge 0}, (b_n)_{n \ge 0}) = \sum \left\{\frac{1}{2^n} \mid n \ge 0
 
 and
 
-$$d_1((a_n)_{n \ge 0}, (b_n)_{n \ge 0}) = \min \left\{\frac{1}{2^n} \mid n \ge 0, \; a_n \neq b_n\right\}.$$
+$$d_2((a_n)_{n \ge 0}, (b_n)_{n \ge 0}) = \frac{1}{2^k}$$
+
+for the minimum $$k \ge 0$$ such that $$a_k \not= b_k$$, or 0 if no such $$k$$ exists.
 
 Choose one of these and show that it is a metric and generates the topology we just defined on Baire space (both of them do!).
 
