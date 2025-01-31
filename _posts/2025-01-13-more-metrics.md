@@ -38,7 +38,7 @@ This means $$z \in B_{\hat{d}}(y, \epsilon)$$ as desired.
 You'll prove a result on the second written assignment that gives a nicer way of proving that two metrics generate the same topology.
 
 We also defined three metrics on $$\mathbb{R}$$:
-1. The standard Euclidean metric: $$d((x_1, y_1), (x_2, y_2)) = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2}$$
+1. The standard Euclidean metric: $$d((x_1, y_1), (x_2, y_2)) = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$$
 2. The Manhattan metric: $$d((x_1, y_1), (x_2, y_2)) = \|x_1 - y_1\| + \|x_2 - y_2\|$$
 3. The square distance: $$d((x_1, y_1), (x_2, y_2)) = \max(\|x_1 - y_1\|, \|x_2 - y_2\|)$$
 
