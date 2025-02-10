@@ -16,7 +16,7 @@ Given a topological space $$X$$ and a set $$A \subseteq X$$, we say $$A$$ is **p
 
 We didn't discuss any examples of path-connectedness (perhaps we should -- maybe next lecture).
 
-We proved that if $$X$$ is a topological space and $$A, B \subseteq X$$ are path-connected and furthermore satisfy $$A \cap B \neq \emptyset$$ then $$A \cuo B$$ is path-connected.
+We proved that if $$X$$ is a topological space and $$A, B \subseteq X$$ are path-connected and furthermore satisfy $$A \cap B \neq \emptyset$$ then $$A \cup B$$ is path-connected.
 
 Next, we proved that if a topological space $$X$$ is path-connected then it is connected. This follows from the fact that the "paths" in the definition of path-connectedness are continuous, and moreover we proved last time that the closed interval $$[0, 1]$$ is connected.
 
