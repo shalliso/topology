@@ -17,7 +17,7 @@ This allowed us to prove that if $$X$$ and $$Y$$ are connected spaces then the p
 We spent a lot of time discussing tempting but incorrect proofs before presenting a "correct" proof.
 The proof we covered involves fixing a point $$(x_0, y_0)$$ and considering the $$+$$-shaped sets
 
-$$A_{\hat{y}} = \{(x_0, y) \mid y \in Y} \cup \{(x, \hat{y}) \mid x \in X\}.$$
+$$A_{\hat{y}} = \{(x_0, y) \mid y \in Y\} \cup \{(x, \hat{y}) \mid x \in X\}.$$
 
 These sets are connected (because $$X$$ and $$Y$$ are) and they all have the point $$(x_0, y_0)$$ in common, and moreover every point in $$X \times Y$$ lies within one of these sets. Thus the union $$\bigcup_{\hat{y}} A_{\hat{y}}$$ is connected and equal to $$X \times Y$$.
 
