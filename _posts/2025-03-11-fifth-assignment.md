@@ -12,4 +12,4 @@ categories: assignment
 
 4. Manetti 4.27
 
-5. Let $$(X, d)$$ be a metric space and $$A \subseteq X$$ a set. For any point $$x \in X$$, define $$d(x, A)$$, the **distance from x to $$A$$**, to be the infimum of the set $$\{d(x, a) \mid a \in A\}$$. Show that for any $$x \in X$$ there exists some $$a \in A$$ such that $$d(x, A) = d(x, a)$$.
+5. Let $$(X, d)$$ be a metric space and $$A \subseteq X$$ a set. For any point $$x \in X$$, define $$d(x, A)$$, the **distance from x to $$A$$**, to be the infimum of the set $$\{d(x, a) \mid a \in A\}$$. Show that if $$A$$ is compact then for any $$x \in X$$ there exists some $$a \in A$$ such that $$d(x, A) = d(x, a)$$.
