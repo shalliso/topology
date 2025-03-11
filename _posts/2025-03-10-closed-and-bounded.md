@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Compactness"
+title: "Closed and bounded"
 categories: lecture
 ---
 
