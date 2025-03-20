@@ -15,7 +15,7 @@ In particular, if $$\mathcal{B}$$ is a countable basis for a topological space $
 Moving on to metrizable spaces, recall that a topological space $$X$$ is metrizable if and only if there is a metric $$d$$ on $$X$$ generating the topology. This means the collection of open balls $$\{B_d(x, r) \mid x \in X, \; r > 0\}$$ forms a basis for the topology.
 
 We showed that every metrizable space is first-countable.
-In particular, let $$d$$ be a metric on $$X$$ generating the topology for any point $$x \in X$$, consider $$\mathcal{B}_x = \{B_d(x, \frac{1}{n} \mid n \in \mathbb{Z}^{> 0}\)$$.
+In particular, let $$d$$ be a metric on $$X$$ generating the topology for any point $$x \in X$$, consider $$\mathcal{B}_x = \{B_d(x, \frac{1}{n}) \mid n \in \mathbb{Z}^{> 0}\}$$.
 This forms a countable local basis at $$x$$.
 
 Finally, we showed that every separable metrizable space is second-countable.
